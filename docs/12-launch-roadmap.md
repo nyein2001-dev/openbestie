@@ -1,0 +1,87 @@
+## Decisions made
+
+- **Assumption.** One founder works Nov 27–Dec 10 inclusive, deploys and publicly launches on Dec 10. A small December pilot can buy the first finished pack before the public launch.
+- **Estimate.** Allocate 60 hours to engineering and release, 24 to founder work and 14 to contingency. Each day below totals seven hours for one person. Pilot acquisition time also counts against the 24-hour channel ceiling in [09](09-go-to-market-strategy.md).
+- **Assumption.** Use rights, purchase, delivery and reproducibility gates for each live pack. Reduce the catalog if necessary to protect the date and the promise on the product page.
+- **Estimate.** Close the business target by Dec 30 at 23:59 Bangkok time. On Dec 31 report any further sales, actual deposits, open refund exposure and the experiment that earned the next hour of work.
+
+# Launch roadmap
+
+### Fourteen days from first setup to public sales
+
+**Estimate.** Hours are engineering / founder / buffer. Founder work includes offline character preparation. Reuse consenting participants across product walkthroughs and workflow tests. Never count a complimentary test as a sale.
+
+| Day / date | Hours | Engineering and release | Founder work in the same day |
+|---|---|---|---|
+| 1 · Fri Nov 27 | 4 / 3 / 0 | Create preview/prod Worker, D1 schema, access gate and production domain. Set up native seller and sample product records. | Apply as a Thai individual with matching local bank and KYC. Check registration and professional obligations in [10](10-risk-and-legal-assessment.md). Inventory original editable source files. Recruit interviewees and three independent workflow testers. |
+| 2 · Sat Nov 28 | 4 / 3 / 0 | Publish a private single-pack prototype. Wire a test product to hosted checkout, protected content and receipt. Bring proof layout to a phone screen. | Conduct first interviews. Confirm paid Kling Standard terms, attribution and actual plan price. Export three clean views of the first character, generate both shots and record settings, retries and limits. |
+| 3 · Sun Nov 29 | 4 / 3 / 0 | Build reusable home cards, playable proof and detail manifest. Create the first native test purchase and unzip the actual files. | Run interviews. Give the research pack and written prompts to the three workflow testers. Collect silent-use observations and distinguish their results from founder examples. |
+| 4 · Mon Nov 30 | 5 / 2 / 0 | Add license, refund, support and recovery pages. Configure shared offer and validate cap/exhaustion on QA products. Verify mobile total and receipt recovery. | Finish eight interviews. Check whether four show concrete rework. Finalize one pack, provenance, license, proof, contact and ZIP. Confirm authority to take payment before inviting buyers. |
+| 5 · Tue Dec 1 | 4 / 2 / 1 | Enable minimal instrumented pilot detail page and native direct checkout for the cleared first SKU. Exclude test traffic. Verify price on a fresh device. | Open the $19 pilot to qualified strangers. Count genuine orders once toward the first ten. If checkout is unapproved, collect only explicit interest with the price shown. Start second character proof. |
+| 6 · Wed Dec 2 | 4 / 2 / 1 | Implement owner draft, preview, media references and publication gates. Check that unpublished records and order information stay private. | Read the three independent workflow outcomes. Require two successful two-shot reproductions for the tested offer. Correct the ZIP or directions and retest if needed. Continue paid invitations. |
+| 7 · Thu Dec 3 | 4 / 2 / 1 | Add feedback form, private queue and receipt/content-area feedback link. Test draft → published → hidden on both store surfaces. | Finish the ten qualified offers. Two paid buyers support promotion. Zero triggers one changed offer and ten fresh prospects. Audit file readiness for all three packs. [Build-week gates](02-problem-validation.md). |
+| 8 · Fri Dec 4 | 5 / 1 / 1 | Finish mobile detail pages, checkout cancellation, empty/error states and owner price-change workflow. Verify campaign landing and product URLs. | First 30-minute evidence review. Approve a one-sentence change or leave the offer intact. Assemble third pack from the prepared masters. |
+| 9 · Sat Dec 5 | 5 / 1 / 1 | Finish draft validation, sales lookup link, native receipt resend/refund procedure, accessibility and social previews. | Run second/third pack proof tasks with a second reader or creator. Request posting permission and partner demo slots. |
+| 10 · Sun Dec 6 | 5 / 1 / 1 | Complete deployment wiring, media fallback, event checks and backup/restore rehearsal. Freeze new feature work. | Confirm each pack's actual workflow/date, commercial plan, two visibly different scenes and documented limitation. Remove unsupported compatibility copy. |
+| 11 · Mon Dec 7 | 4 / 1 / 2 | Start end-to-end QA on mobile and desktop, five short observed home-page tasks, keyboard and screen reader path. | Ask testers to identify the purchase, source files, tool and refund route. Record confusion and issue commitments to pre-approved partners. |
+| 12 · Tue Dec 8 | 4 / 1 / 2 | Finish the five home-page tasks. Test guest purchase for each SKU, correct file/version, missing receipt, failed payment where provider test facilities allow, refund procedure and native email flow. | Check payment account, THB destination, payout calendar and outstanding KYC requests. Verify public price against native checkout and test the strongest outreach message. |
+| 13 · Wed Dec 9 | 4 / 1 / 2 | Run production dress rehearsal, accessibility/performance budget, draft privacy, native cap, legal links, private ZIP and rollback checks. Resolve blockers. | Confirm final approved line-up. Prepare launch post with the original references, actual output, trial conditions, refund terms and one direct link. |
+| 14 · Thu Dec 10 | 4 / 1 / 2 | Deploy production, exercise every live purchase path in native test mode, verify public URLs from mobile data, watch errors and confirm owner access. | Open public sales, release the first approved demo and answer live questions. Contact interested pilot participants once with permission. Record first genuine paid order and any failed deliveries. |
+| **Total** | **60 / 24 / 14** | **98 hours including buffer.** | The allocation fits only if source assets are substantially ready on Day 1. |
+
+### Go/no-go at deployment
+
+**Assumption — owner signs each gate.**
+
+- [ ] At least one original character has three usable PNGs, two tested prompts, quick-start and dated license inside the correct ZIP. Its source permissions, paid commercial plan, two-shot evidence and independent use check are documented. Only cleared SKUs appear on either surface.
+- [ ] An external visitor can identify what is sold, tested workflow, limits and supplier of generation credits. Aim for 4/5 unaided home-page task completions. Fix any material ambiguity about payment, rights or deliverables before promotion.
+- [ ] Seller's account can legally accept real international web payments for these goods, Thai payout details are confirmed, support is monitored, and the applicable tax/registration check is documented. Bank settlement itself may come after release.
+- [ ] Live product ID, USD price, global capped discount, refund policy and total at checkout agree. Guest can cancel, pay, receive the correct ZIP and recover it. Seller can unpublish, search orders, resend and refund. Use the provider's test facility. Never buy your own product to trigger a payout. [Gumroad test purchase](https://gumroad.com/help/article/62-testing-a-purchase) (accessed 2026-11-26).
+- [ ] Mobile/keyboard path, private admin, draft protection, backup/restore, analytics without personal data and production rollback pass the checks in [08](08-product-requirements.md). Unverified edge cases outside native test facilities are documented and monitored on the first genuine order.
+
+**Assumption — cut order.** Remove extra glow, hero ornament and secondary crops first. Simplify repeated FAQ content and admin styling next. Finally ship only the proved characters, down to one. Preserve the two-shot proof for each live SKU, truthful price/license/refund, protected delivery, owner controls and a contact route. If commerce or rights remain blocked, deploy the informational site and label the missed paid-launch gate. Continue interviews and reopen sales only on a verified route in [05](05-business-model.md).
+
+### Public launch through the December 24–31 sprint
+
+| Bangkok dates | Action and check |
+|---|---|
+| Dec 10–11 | Check the first live receipt with the consenting buyer and confirm the files open. Aim for seven legitimate intro sales by Dec 11 to improve payout timing. Document any eligibility delay immediately. |
+| Dec 12–17 | Use the Dec 11 funnel review to choose permitted creator placements. Show usable shots and respond to support daily. Book at least one recent-project conversation in each selling week. |
+| Dec 18–23 | Review the actual channel and price cohorts Dec 18. Offer one permitted follow-up per interested person. Prioritize the asset, use case and channel generating real orders. Inspect payout status and first bank credit. |
+| Thu Dec 24 | Reconcile paid customers vs the ten-buyer goal. Calculate remaining orders and visitors at the observed conversion. If no orders yet, observe a qualified creator attempt the full path. |
+| Fri Dec 25 | Hold the 30-minute review even if channels are quiet. Resolve paid customer issues and reply to existing requests. Move outreach into permitted, active channels. |
+| Sat Dec 26 | Check the D1 queue, provider refund/dispute requests and availability of every live ZIP. Send the one post-use question only to buyers who opted into a follow-up. |
+| Sun Dec 27 | Publish a concise walkthrough of the demonstration with the most paid referrals. Use the checkout's current price. Validate any renewed tool plan and remaining credit budget. |
+| Mon Dec 28 | Return to qualified buyers who specifically requested a link or clarification. Stop outreach immediately after a decline. Log the actual alternative nonbuyers chose. |
+| Tue Dec 29 | Check payout sent vs credited. Contact the provider if its stated processing window was exceeded. Do not turn a pending transfer into a cash figure. |
+| Wed Dec 30 | Focus the remaining selling time on the strongest converting channel. At 23:59 ICT snapshot visitors, retained distinct buyers, units, gross, refund exposure, net and THB received. |
+| Thu Dec 31 | Keep checkout and support open. Reconcile Dec 31 incremental sales to the calendar month, preserve the Dec 30 snapshot, compare hours and contribution, and record whether to continue, revise the offer or stop selling it under [02](02-problem-validation.md). |
+
+### Measurement and weekly customer learning
+
+**Assumption — the smallest research program.** Use one weekly conversation about a real last project, a paid pilot, and a single optional post-use question with an owner inbox. The conversation and paid test can happen in the same week. Every response should identify a decision or a customer problem that can be resolved.
+
+| Method and research basis (sources accessed 2026-11-26) | Launch decision, supporting feature and trigger |
+|---|---|
+| **Fact.** Lean Startup uses build–measure–learn. Continuous discovery uses at least weekly customer contact around a desired outcome. JTBD switch interviews reconstruct a real decision. The Mom Test emphasizes learning from concrete behavior. [Ries](https://theleanstartup.com/principles) · [Torres](https://www.producttalk.org/product-discovery/) · [Re-Wired Group](https://therewiredgroup.com/learn/complete-guide-jobs-to-be-done/) · [Fitzpatrick](https://www.momtestbook.com/) | **Assumption — use.** Ask a buyer or blocked prospect to show their last episode, failed take, prior reference and actual spend. Ask what finally made them switch or pass. Recruit using opt-in on the common feedback form. Two recurring failures can justify a correction to the quick-start. New features use the stricter rule in [07](07-mvp-feature-prioritization.md). |
+| **Fact.** Fake doors test initial interest by presenting an apparent offer. Experiment libraries distinguish tests by evidentiary strength. [Pretotyping methods](https://www.albertosavoia.com/uploads/1/4/0/9/14099067/summary_of_pretotyping_techniques.pdf) · [Strategyzer experiments](https://www.strategyzer.com/library/experiment-library) | **Assumption — use a paid, fulfilled early sale.** A pre-sale of unfinished inventory creates refund and delivery obligations. If unavailable, label the price and “Notify me” plainly. Measure interest separately. Only a paid native order counts toward the commercial test. |
+| **Fact.** Modern survey tools support contextual feedback buttons and short post-purchase questions. [PostHog survey modes](https://posthog.com/docs/surveys/creating-surveys) · [Shopify merchant research guidance](https://www.shopify.com/enterprise/blog/collect-customer-data) | **Assumption — use.** Put “Did you get a usable shot?” in the quick-start or hosted content area. Yes / No / Haven't tried, with optional blocker. For consenters send a single check at about 48 hours. Track invitations, responses, actual attempts and usable shots separately. Read every negative response. |
+| **Fact.** The Sean Ellis survey asks experienced users how disappointed they'd be to lose the product. Superhuman describes a 40% heuristic using a selected active-user group. [Founder account](https://review.firstround.com/how-superhuman-built-an-engine-to-find-product-market-fit/) | **Assumption — exclude.** Ten one-off buyers are an unsuitable basis for a PMF percentage. Measure use of the paid download and evidence of a subsequent casting decision. |
+| **Fact.** Public feedback boards allow voting and sorting by demand. Session replay tools add tracking and consent choices. [Canny boards](https://help.canny.io/en/articles/3827588-board-filters) · [Microsoft Clarity consent](https://learn.microsoft.com/en-us/clarity/setup-and-installation/consent-management) | **Assumption — exclude both.** Public votes mix buyers and observers. Watching a consenting creator try the actual pack answers what went wrong without broad session recording. Use the private blocker queue and observed task instead. |
+| **Fact.** Creators already meet in tool communities, and founders have published their experience of building in public. [Kling Discord](https://discord.com/servers/kling-ai-1280747274280112160) · [Buffer founder interviews](https://buffer.com/resources/internet-transparency/) | **Assumption — show real work where customers gather.** A permitted two-shot walkthrough and replies can recruit buyers. A new Discord and an ongoing founder diary require additional community management. Track qualified visitors and paid orders for each placement. |
+| **Fact.** In a 2026 study of AI-moderated interviews, Nielsen Norman Group found limits to probing unexpected responses. [NN/g research](https://www.nngroup.com/articles/ai-interviewers/) | **Assumption — retain founder-led interviews.** At eight interviews the founder can see the edit and ask a specific follow-up. No synthetic customers or AI interview product is needed. |
+
+| Private dashboard row | Data and action threshold (all thresholds are assumptions) |
+|---|---|
+| Reach and acquisition effort | Plausible visitors by UTM, partner placement, hours and known buyers per hour. If a channel consumes four hours without a qualified checkout click, move the next block of time. |
+| Evaluation and payment | Public home/detail page views, unique proof plays and checkout clicks, confirmed orders and alternate checkout sources. Inspect offer clarity at 100 qualified detail visitors and zero orders. After ten checkout clickers and zero orders, test the live handoff and mobile price before changing the offer. |
+| Delivery and outcome | Failed deliveries, inbox requests, verified resends, yes/no/not-tried responses and attempts. Any paid delivery error gets same-day attention. Two independent users stuck at the same prompt trigger a guide correction and retest. |
+| Finance | Cutoff date, distinct paying buyers, units at $19/$29, gross excluding tax, refunds, fees, merchant net, unexpired refund exposure, eligible balance and THB credited. Compare with the estimates in [06](06-revenue-and-financial-plan.md). |
+
+**Assumption — weekly meeting with the evidence.** On Dec 4, 11, 18 and 25 and at the Dec 31 close, spend 30 minutes. Reconcile UTC sales in Bangkok time, read every open blocker, review one buyer's last project, identify the largest observed loss, choose one reversible change and name its owner, date, metric and stop condition. Enter “insufficient evidence” when a denominator is too small. Add a feature only on the paid evidence and cost test in [07](07-mvp-feature-prioritization.md). Never turn an untested suggestion into a dated work item.
+
+## Assumptions & open questions
+
+- Will payment verification, source provenance and at least one pack pass in time for genuine Dec 1–3 pilot offers and Dec 10 public sales?
+- Can the founder recruit independent testers and permissioned placements without spending beyond the time and cash limits? If distribution fails, sales results alone cannot isolate product demand.
+- Will settlement arrive by Dec 30? Verify the provider balance and actual THB bank entry before closing that objective.
