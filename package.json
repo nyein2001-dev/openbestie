@@ -1,0 +1,44 @@
+{
+  "name": "openbestie",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^24.0.0"
+  },
+  "scripts": {
+    "dev": "wrangler dev",
+    "typecheck": "tsc",
+    "lint": "biome ci .",
+    "format": "biome check --write .",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "build": "node scripts/ops.mjs build",
+    "check": "npm run typecheck && npm run lint && npm test && npm run build",
+    "migrate:local": "wrangler d1 migrations apply DB --local",
+    "migrate:preview": "node scripts/ops.mjs migrate preview",
+    "migrate:production": "node scripts/ops.mjs migrate production",
+    "preflight": "node scripts/ops.mjs preflight production",
+    "deploy:preview": "node scripts/ops.mjs deploy preview",
+    "deploy:production": "node scripts/ops.mjs deploy production",
+    "smoke": "node scripts/ops.mjs smoke",
+    "db:export": "node scripts/ops.mjs export",
+    "db:restore": "node scripts/ops.mjs restore",
+    "rollback": "node scripts/ops.mjs rollback"
+  },
+  "dependencies": {
+    "hono": "4.13.23",
+    "jose": "6.2.18"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.1",
+    "@biomejs/biome": "2.6.9",
+    "@cloudflare/vitest-plugin": "1.9.2",
+    "@cloudflare/workers-types": "5.20261127.1",
+    "@playwright/test": "1.65.1",
+    "@types/node": "24.19.4",
+    "typescript": "7.0.2",
+    "vitest": "5.1.2",
+    "wrangler": "4.168.0"
+  }
+}

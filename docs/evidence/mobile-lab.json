@@ -1,0 +1,23 @@
+[
+  {
+    "lcp": 1872,
+    "cls": 0.00020629129785482966,
+    "firstInteractionMs": 248,
+    "bytes": 80829,
+    "js": 1022
+  },
+  {
+    "lcp": 748,
+    "cls": 0.00020629129785482966,
+    "firstInteractionMs": 56,
+    "bytes": 80829,
+    "js": 1022
+  },
+  {
+    "lcp": 880,
+    "cls": 0.00020629129785482966,
+    "firstInteractionMs": 56,
+    "bytes": 80829,
+    "js": 1022
+  }
+]

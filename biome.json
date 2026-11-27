@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "files": {
+    "includes": [
+      "**",
+      "!**/node_modules",
+      "!**/.tools",
+      "!**/.wrangler",
+      "!**/.git",
+      "!**/dist",
+      "!**/test-results",
+      "!**/docs",
+      "!open-bestie.md",
+      "!**/package-lock.json",
+      "!**/.wrangler-*.json"
+    ]
+  },
+  "formatter": { "indentStyle": "space", "lineWidth": 110 },
+  "overrides": [
+    { "includes": ["src/forms.tsx"], "linter": { "rules": { "a11y": { "noRedundantRoles": "off" } } } },
+    {
+      "includes": ["public/site.css"],
+      "linter": { "rules": { "style": { "noDescendingSpecificity": "off" } } }
+    }
+  ]
+}
