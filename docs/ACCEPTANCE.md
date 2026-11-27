@@ -2,7 +2,7 @@
 
 The browser evidence uses fictional pack assets and a **local test identity**. The normal local and preview Workers deny owner access. Provider handoffs and analytics observed in Playwright use intercepted requests. The Wrangler dry-run bundle excludes the fixture entry point and signing material, and migrations leave the catalog empty.
 
-Local verification passed 74 Worker tests, 7 Chromium scenarios, 10 smoke checks and D1 export and restore. All 42 screenshot hashes are distinct. The three throttled mobile fixture loads transferred 80,829 bytes each. Median LCP was 880 ms and median first interaction was 56 ms, with one 248 ms interaction. The lab exercise measures a first interaction. Production INP needs field data.
+Local verification passed 74 Worker tests, 7 Chromium scenarios, 10 smoke checks and D1 export and restore. GitHub Actions also passed on Linux. All 42 screenshot hashes are distinct. In three uncached, throttled mobile fixture loads, median LCP was 1104 ms, maximum CLS was 0.00021 and maximum transfer was 80878 bytes. The median first interaction was 72 ms, with samples from 64 to 1880 ms. Production INP needs field data.
 
 ## Document 08
 

@@ -1,23 +1,23 @@
 [
   {
-    "lcp": 1872,
+    "lcp": 1104,
     "cls": 0.00020629129785482966,
-    "firstInteractionMs": 248,
-    "bytes": 80829,
+    "firstInteractionMs": 1880,
+    "bytes": 80878,
     "js": 1022
   },
   {
-    "lcp": 748,
+    "lcp": 1908,
     "cls": 0.00020629129785482966,
-    "firstInteractionMs": 56,
-    "bytes": 80829,
+    "firstInteractionMs": 64,
+    "bytes": 80878,
     "js": 1022
   },
   {
-    "lcp": 880,
+    "lcp": 888,
     "cls": 0.00020629129785482966,
-    "firstInteractionMs": 56,
-    "bytes": 80829,
+    "firstInteractionMs": 72,
+    "bytes": 80878,
     "js": 1022
   }
 ]
