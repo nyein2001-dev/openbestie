@@ -37,6 +37,7 @@ body {
 }
 a {
   color: var(--mint);
+  overflow-wrap: anywhere;
   text-underline-offset: 0.24em;
   transition:
     color 140ms,
@@ -74,6 +75,7 @@ figcaption {
 p {
   margin: 0 0 1rem;
   color: var(--muted);
+  overflow-wrap: anywhere;
 }
 p:last-child {
   margin-bottom: 0;
@@ -134,6 +136,8 @@ small,
 }
 nav {
   display: flex;
+  min-width: 0;
+  max-width: 100%;
   gap: 0 1.1rem;
   align-items: center;
   flex-wrap: wrap;
@@ -206,6 +210,9 @@ nav a:hover {
 .button,
 button {
   display: inline-flex;
+  max-width: 100%;
+  min-width: 0;
+  overflow-wrap: anywhere;
   min-height: 44px;
   align-items: center;
   justify-content: center;
@@ -533,13 +540,17 @@ textarea[aria-invalid="true"] {
     margin-bottom: 0.65rem;
   }
   .admin-table td {
+    display: grid;
+    grid-template-columns: minmax(4.5rem, 5.5rem) minmax(0, 1fr);
+    align-items: center;
+    column-gap: 0.4rem;
     border: 0;
     padding-block: 0.3rem;
   }
   .table-label {
     display: inline-block;
     color: var(--muted);
-    min-width: 6rem;
+    min-width: 0;
   }
 }
 @media (max-width: 26rem) {

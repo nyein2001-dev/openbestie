@@ -55,7 +55,15 @@ async function own(context: BrowserContext) {
 }
 
 async function assertReflow(page: Page) {
-  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.evaluate(() => document.fonts.ready);
+  await expect
+    .poll(() =>
+      page.evaluate(() => ({
+        width: window.innerWidth,
+        overflow: Math.max(0, document.documentElement.scrollWidth - window.innerWidth),
+      })),
+    )
+    .toMatchObject({ overflow: 0 });
 }
 
 async function fillCharacter(page: Page, values: Record<string, string>) {
